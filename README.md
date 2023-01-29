@@ -120,3 +120,6 @@ Python version:
 ## Contributing
 See the [guide](CONTRIBUTING.md).
 
+### Example
+
+![](https://github.com/libialany/pysorter/blob/develop/pysort.gif)
