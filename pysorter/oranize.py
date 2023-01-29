@@ -221,3 +221,6 @@ class Organizer(object):
             fs.move_file(src, dst)
         else:
             fs.move_dir(src, dst)
+        # sugess file size info
+        print("size of {} is: ".format(dst))
+        os.system('du -h {dst} | sort -rh | head -5'.format(dst))            
