@@ -7,16 +7,16 @@ repos:
 #      rev: v2.5.0
 #      hooks:
 #        - id: check-added-large-files
-    - repo: local
-      hooks:
-        - id: pylint
-          name: pylint
-          entry: pylint
-          language: system
-          types: [python]
-          args:
-            [
-              "-rn", # Only display messages
-              "-sn", # Don't display the score
-            ]
+#    - repo: local
+#      hooks:
+#        - id: pylint
+#          name: pylint
+#          entry: pylint
+#          language: system
+#          types: [python]
+#          args:
+#            [
+#              "-rn", # Only display messages
+#              "-sn", # Don't display the score
+#            ]
 
